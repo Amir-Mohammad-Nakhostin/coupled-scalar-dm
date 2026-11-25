@@ -1,5 +1,21 @@
 # Scalar–Tensor Dark-Matter Coupling Cosmology Suite
 
+**A numerical research prototype for exploring scalar-field coupling to dark matter.**
+
+This project implements a specified scalar–tensor cosmological model and compares its numerical predictions with supplied BAO and redshift-space distortion (RSD) data.
+
+## Research overview
+
+- Background cosmological evolution and linear structure growth.
+- Numerical integration with NumPy and SciPy.
+- Comparison of coupling-strength benchmarks using BAO and RSD diagnostics.
+- Reproducible scripts, CSV outputs and plots.
+- Explicit treatment of numerical assumptions and limitations.
+
+**Status:** Exploratory computational research, not a validated cosmological inference pipeline or a claim of observational discovery. The diagonal-error approximation and other assumptions are documented below.
+
+## Model and methodology
+
 A deterministic Python 3.10+ research prototype for a four-dimensional scalar–tensor model in which a massive scalar couples conformally **only to dark matter**:
 
 \[
